@@ -23,6 +23,7 @@
         android:src="@android:drawable/ic_dialog_email" />
 
     <com.example.tree.volleyokhttpsample.FlowLayout
+        android:layout_marginTop="200dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
@@ -78,6 +79,7 @@
 
     <TextView
         android:id="@+id/id_textview"
+        android:layout_marginTop="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world"/>
@@ -85,6 +87,7 @@
     <ImageView
         android:id="@+id/id_imageview"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"/>
 
 </android.support.design.widget.CoordinatorLayout>
